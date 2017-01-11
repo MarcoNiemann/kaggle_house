@@ -1,0 +1,44 @@
+Package: KaggleHouse
+Type: Package
+Title: Analysing House Prices in Ames, Iowa and Build a Sales Price Prediction
+        Model
+Version: 0.1
+Date: 2016-11-05
+Author@R: c(person("Frederik", "Elischberger", role = c("aut"),
+    email = "frederik.elischberger@uni-muenster.de"),
+    person("Marco", "Niemann", role = c("aut"),
+    email = "marco.niemann@uni-muenster.de"))
+Author: Frederik Elischberger [aut],
+        Marco Niemann [aut]
+Maintainer: Marco Niemann <marco.niemann@uni-muenster.de>
+Description: Analysis functions for the Ames, Iowa dataset plus model building
+              functions building on the analysis, used to create a model to
+              predict house prices.
+License: What license is it under?
+LazyData: TRUE
+Imports:
+    Rcpp (>= 0.12.7),
+    compiler,
+    ggplot2,
+    gridExtra,
+    dbscan,
+    mlr (>= 2.10),
+    methods,
+    magrittr,
+    Ckmeans.1d.dp,
+    mice (>= 2.25),
+    ParamHelpers,
+    glmnet,
+    irace,
+    FSelector,
+    h2o,
+    parallelMap,
+    Boruta,
+    Amelia,
+    xgboost (>= 0.6.2),
+    corrplot
+Suggests:
+    kernlab,
+    randomForest
+LinkingTo: Rcpp
+RoxygenNote: 5.0.1
